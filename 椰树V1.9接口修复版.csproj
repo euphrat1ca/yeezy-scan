@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8A910DCE-2FAB-41B9-8C4D-754553A80C3B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>椰树V1.9接口修复版</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Interop.SHDocVw" />
+    <Reference Include="System.Web" />
+    <Reference Include="Microsoft.JScript" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="windowsmanger.Properties\Resources.cs" />
+    <Compile Include="windowsmanger.Properties\Settings.cs" />
+    <Compile Include="windowsmanger\akcms.cs" />
+    <Compile Include="windowsmanger\aspcms.cs" />
+    <Compile Include="windowsmanger\B2Bbuilder.cs" />
+    <Compile Include="windowsmanger\BlindType.cs" />
+    <Compile Include="windowsmanger\cms08.cs" />
+    <Compile Include="windowsmanger\cmseasy.cs" />
+    <Compile Include="windowsmanger\DBType.cs" />
+    <Compile Include="windowsmanger\dedecms.cs" />
+    <Compile Include="windowsmanger\discuz.cs" />
+    <Compile Include="windowsmanger\Easytuan.cs" />
+    <Compile Include="windowsmanger\ecshop.cs" />
+    <Compile Include="windowsmanger\espcms.cs" />
+    <Compile Include="windowsmanger\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormCookie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\FormXSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmanger\iiswrite.cs" />
+    <Compile Include="windowsmanger\InjectionType.cs" />
+    <Compile Include="windowsmanger\kessionms.cs" />
+    <Compile Include="windowsmanger\ljnanfang.cs" />
+    <Compile Include="windowsmanger\phpcms.cs" />
+    <Compile Include="windowsmanger\phpweb.cs" />
+    <Compile Include="windowsmanger\Program.cs" />
+    <Compile Include="windowsmanger\Reg.cs" />
+    <Compile Include="windowsmanger\RequestType.cs" />
+    <Compile Include="windowsmanger\shopex.cs" />
+    <Compile Include="windowsmanger\shopxp.cs" />
+    <Compile Include="windowsmanger\southidc.cs" />
+    <Compile Include="windowsmanger\Struts2.cs" />
+    <Compile Include="windowsmanger\TaskStatus.cs" />
+    <Compile Include="windowsmanger\u5ucms.cs" />
+    <Compile Include="windowsmanger\w78cms.cs" />
+    <Compile Include="windowsmanger\WCRSetting.cs" />
+    <Compile Include="windowsmanger\WebCruiserWVS.cs" />
+    <Compile Include="windowsmanger\WebSite.cs" />
+    <Compile Include="windowsmanger\zhuangxiu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="windowsmanger.Properties\Resources.resources" />
+    <EmbeddedResource Include="windowsmanger\Form2.resources" />
+    <EmbeddedResource Include="windowsmanger\FormAbout.resources" />
+    <EmbeddedResource Include="windowsmanger\FormAdmin.resources" />
+    <EmbeddedResource Include="windowsmanger\FormBrowser.resources" />
+    <EmbeddedResource Include="windowsmanger\FormCode.resources" />
+    <EmbeddedResource Include="windowsmanger\FormCookie.resources" />
+    <EmbeddedResource Include="windowsmanger\FormMain.resources" />
+    <EmbeddedResource Include="windowsmanger\FormReport.resources" />
+    <EmbeddedResource Include="windowsmanger\FormScanner.resources" />
+    <EmbeddedResource Include="windowsmanger\FormSetting.resources" />
+    <EmbeddedResource Include="windowsmanger\FormSQL.resources" />
+    <EmbeddedResource Include="windowsmanger\FormXSS.resources" />
+    <EmbeddedResource Include="windowsmanger\Resources.Resources.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\椰树V1.9接口修复版New\bin\Debug\椰树V1.9接口修复版.exe
+C:\Users\Administrator\Desktop\椰树V1.9接口修复版New\bin\Debug\椰树V1.9接口修复版.pdb
+C:\Users\Administrator\Desktop\椰树V1.9接口修复版New\obj\x86\Debug\椰树V1.9接口修复版.exe
+C:\Users\Administrator\Desktop\椰树V1.9接口修复版New\obj\x86\Debug\椰树V1.9接口修复版.pdb
+C:\Users\Administrator\Desktop\椰树V1.9接口修复版New\obj\x86\Debug\椰树V1.9接口修复版.csprojResolveAssemblyReference.cache
